@@ -1,45 +1,39 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-    <title>作業練習六-CSS定位</title>
-  <style>
-  
-    #nav{
-	 position:absolute;
-	 width:20%; height:600px;
-	 top:0; bottom:auto; left:0; right:0;
-	 background-color:#ffffff;
-    }
-	
-	#main{
-	 position:absolute;
-	 width:auto; height:600px;
-	 top:0; bottom:auto; left:20%; right:0;
-	 background-color:#000000;
-	 color:white;
-	}
+	<head>
+		<meta charset="UTF-8">
+		<title>廣演x動漫 萬聖節聯合社課</title>
+		<link rel="stylesheet" type="text/css" href="homepage.css">
+	</head>
+	<header>
+		<div class="container">
+			<h1><img src="lama.png">見面五秒開始表演<img src="ghost.png"></h1>
     
-	#footer{
-	 position:fixed;
-	 width:100%; height:80px;
-	 top:80%; bottom:0; left:0; right:0;
-	 background-color:#d0d0d0;
-	 color:white;
-	}
+			<nav>
+				<ul>
+					<button onclick="javascript:location.href='halloween.html'">重設</button>
+				</ul>
+			</nav>
+		</div>
+	</header>
 	
-  </style>
-</head>
-  
-  <body>
-    <div id="nav">
-		nav
-	</div>
-	<div id="main">
-		main
-	</div>
-	<div id="footer">
-		footer
-	</div>
-  </body>
+	<body>
+		<div class="box">
+			<div>
+				<table>
+				<tr>
+					<th  class="point_board">team1<br><input type="number" class="point" value="0"></th>
+					<th><iframe height="600px" width="800px" style="border: none" scrolling="no" src="number.html"></iframe></th>
+					<th class="point_board">team2<br><input type="number" class="point" value="0"></th>
+				</tr>
+				</table>
+			</div>
+		</div>
+		
+		<script>
+			
+			
+		</script>
+	</body>
+	
 </html>
